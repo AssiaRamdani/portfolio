@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import AboutUs from "./components/AboutUs";
 import Footer from "./components/Footer";
 import Competences from "./components/Competences";
-import Projets from "./components/projets";
+import Projets from "./components/Projets";
 
 function App() {
   return (
