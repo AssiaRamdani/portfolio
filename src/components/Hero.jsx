@@ -5,7 +5,6 @@ export default function Hero() {
     <>
       <div   className="grid md:grid-cols-2 gap-10 mt-1 items-center">
         <div>
-          {/* <h1 className="absolute  inset-0 flex flex-col items-start justify-center  */}
           <h1 className=" flex flex-col items-start justify-center 
               text-white text-left px-4 bg-black/1 rounded-3xl"
           >

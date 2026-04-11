@@ -48,15 +48,7 @@ export default function Footer() {
           </div>
 
           {/* Resources */}
-          {/* <div>
-        <h3 className="font-semibold mb-4 text-white">Resources</h3>
-        <ul className="space-y-2 text-sm text-[#f5d7dc]">
-          <li className="hover:text-white cursor-pointer transition">Blog</li>
-          <li className="hover:text-white cursor-pointer transition">Help Center</li>
-          <li className="hover:text-white cursor-pointer transition">Privacy Policy</li>
-          <li className="hover:text-white cursor-pointer transition">Terms</li>
-        </ul>
-      </div> */}
+        
 
           {/* Socials */}
           <div>
@@ -70,14 +62,7 @@ export default function Footer() {
               >
                 Facebook
               </a>
-              {/* <a
-                href="https://www.instagram.com/_x_ass.ia_x_?igsh=MTZpNmw5MGZpYW95bQ%3D%3D"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-white transition"
-              >
-                Instagram
-              </a> */}
+             
               <a
                 href="https://mail.google.com/mail/?view=cm&fs=1&to=assiaramdani2020@gmail.com"
                 target="_blank"
@@ -93,10 +78,7 @@ export default function Footer() {
               >
                 LinkedIn
               </a>
-              {/* <span className="hover:text-white cursor-pointer transition">Facebook</span> */}
-              {/* <span className="hover:text-white cursor-pointer transition">Instagram</span> */}
-              {/* <span className="hover:text-white cursor-pointer transition">LinkedIn</span> */}
-            </div>
+               </div>
           </div>
 
         </div>
@@ -107,10 +89,7 @@ export default function Footer() {
         {/* Bottom section */}
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-[#f5d7dc]">
           <p>© {new Date().getFullYear()}AssiaRamdani. All rights reserved.</p>
-          {/* <div className="flex gap-6 mt-4 md:mt-0">
-            <span className="hover:text-white cursor-pointer transition">Privacy</span>
-            <span className="hover:text-white cursor-pointer transition">Terms</span>
-          </div> */}
+         
         </div>
 
       </div>

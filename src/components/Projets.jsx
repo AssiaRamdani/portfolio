@@ -132,16 +132,7 @@ export default function Projets() {
                             {project.description}
                         </p>
 
-                        {/* Galerie */}
-                        {/* <div className="flex gap-4 overflow-x-auto scrollbar-hide">                            {project.images.map((img, i) => (
-                            <img
-                                key={i}
-                                src={img}
-                                alt="project"
-                                className="w-64 h-40 object-cover rounded-xl flex-shrink-0 hover:scale-105 transition"
-                            />
-                        ))}
-                        </div> */}
+                
                         <AutoSlider images={project.images} />
                     </div>
                 ))}
