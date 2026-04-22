@@ -67,6 +67,12 @@ export default function Projets() {
 
     const projects = [
         {
+            title: "Website flowers",
+            description: "It is a website that manages the online sales of flower bouquets, developed using node react espress js.",
+            images: [fleurs1, fleurs2],
+            lien: "https://fleursbyasya-ivory.vercel.app/"
+        },
+        {
             title: "E-commerce App",
             description: "An e-commerce website for managing purchases and sales, built using React, Node.js, Express, and PHP.",
             images: [taika1,
@@ -103,12 +109,8 @@ export default function Projets() {
                 soutenance15,
                 soutenance6,
                 soutenance7]
-        },
-        {
-            title: "Website flowers",
-            description: "It is a website that manages the online sales of flower bouquets, developed using node react espress js.",
-            images: [fleurs1, fleurs2]
         }
+
     ]
 
     return (
@@ -119,6 +121,7 @@ export default function Projets() {
             </h1>
 
             <div className="flex flex-col gap-10">
+
                 {projects.map((project, index) => (
                     <div key={index} className="bg-[#E08D9F] p-6 rounded-2xl shadow-lg">
 
@@ -127,13 +130,35 @@ export default function Projets() {
                             {project.title}
                         </h2>
 
+
+
                         {/* Description */}
                         <p className="text-gray-300 text-sm mb-4">
                             {project.description}
+                            {project.lien && (
+                                <a
+                                    href={project.lien}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="text-white ml-4 underline"
+                                >
+                                    View website
+                                </a>
+                            )}
                         </p>
 
-                
-                        <AutoSlider images={project.images} />
+
+
+
+                        <a
+                            href={project.lien}
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <AutoSlider images={project.images} />
+                        </a>
+
+
                     </div>
                 ))}
             </div>
